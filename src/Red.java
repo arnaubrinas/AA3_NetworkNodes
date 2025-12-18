@@ -71,7 +71,8 @@ public class Red {
     }
   
     int contarVulnerablesAlcanzables(Nodo origen) {
-       return 0;
+       return 0; //no l'hem conseguit fer ja que no trobabm laz manera que ens
+       //  compiles perque ens donaba error i no trobabem la funció per completar
     }
 
     String listarVecinosDe(Nodo n) {
