@@ -36,9 +36,9 @@ public class Nodo {
     public String toString() {
         String resultado = nombre + " (" + ip + ")";
         
-        if (firewall) resultado += " [FIREWALL]";
-        if (vulnerable) resultado += " [VULN]";
-        if (comprometido) resultado += " [PWN]";
+        if (firewall) resultado += "FIREWALL";
+        if (vulnerable) resultado += "VULN";
+        if (comprometido) resultado += "PWN";
         
         return resultado;
     }
